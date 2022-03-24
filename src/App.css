@@ -1,0 +1,35 @@
+.App {
+  padding: 15px 20px;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.App nav .links {
+  float: right;
+}
+.App nav .links a {
+  margin-left: 15px;
+}
+.App.light {
+  background-color: #fff;
+}
+.App.dark {
+  background-color: #121212;
+}
+.App.dark nav .links a {
+  color: beige !important;
+}
+.App.light table {
+  background-color: #fff;
+}
+.App.dark table{
+  background-color: #1e1e1e;
+}
+.App.dark table th, .App.dark table tr {
+  color: beige !important;
+}
+.App.dark .location-field .MuiInputBase-input, .App.dark .location-field .MuiInputLabel-animated {
+color: #fff;
+background-color: cadetblue;
+}
